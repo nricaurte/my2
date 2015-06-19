@@ -1,0 +1,22 @@
+{% extends '::base.html.twig' %}
+    {% block title %}
+
+    Estas viendo alvista desde main
+
+    {% endblock %}
+
+    {% block body %}
+  {% include 'AcmehelloBundle:Default:ejemplo.html.twig' %}
+        <div id="contenido">
+                {% block contenido %}
+                Mi contenido
+                {% endblock %}
+        </div>
+        <div id="sidebar">
+                    {% block   Sidebar %}
+                          Sidebar
+                          <img src="{{ asset('img/apple-touch-icon.png') }}" />
+                    {% endblock %}
+        </div>
+
+    {% endblock %}

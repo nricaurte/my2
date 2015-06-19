@@ -1,0 +1,17 @@
+acmehello:
+    resource: "@AcmehelloBundle/Resources/config/routing.yml"
+    prefix:   /
+
+aprendo_registro:
+    resource: "@aprendoRegistroBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+
+
+
+

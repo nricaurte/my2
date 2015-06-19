@@ -1,0 +1,19 @@
+acmehello_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: AcmehelloBundle:Default:index }
+
+acmehello_alumnos:
+    path:     /alumnos
+    defaults: { _controller: AcmehelloBundle:Default:alumnos }
+
+acmehello_alumno:
+    path:     /alumno/{id}
+    defaults: { _controller: AcmehelloBundle:Default:alumno }
+
+acmehello_hola2:
+    path:   /hola2/{name}
+    defaults: { _controller:  AcmehelloBundle:hola:index  }
+
+acmehello_nuevo:
+    path:   /nuevo/
+    defaults: { _controller:  AcmehelloBundle:Default:nuevo  }
